@@ -17,6 +17,6 @@ start.addEventListener("click",function(){
     let random = data[Math.floor(Math.random() * data.length)]
     quote.innerHTML = `"${ random.quote}"`
     // movie.innerHTML = random.movie
-    character.innerHTML = random.character
-    image.innerHTML = [0].avatar
+    character.innerHTML = `${random.character} : `
+    
 })
