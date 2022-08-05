@@ -1,0 +1,36 @@
+body{
+    /* font-family: 'Corleone', sans-serif; */
+    font-family: 'Corleone Due', sans-serif;
+    color: yellow;
+    background-color: black;
+    letter-spacing: 3px;
+    background-image: url("pexels-marcelo-jaboo-696407.jpg");
+    /* background-position:bottom;  */
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.container{
+    text-align: center;
+    margin: 50px auto;
+}
+
+button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-family: 'Corleone', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+button:hover{
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
